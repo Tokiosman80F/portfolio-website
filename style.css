@@ -1,5 +1,6 @@
 body{
     font-family:'Exo', sans-serif;
+    margin:0;
 }
 h1{
     font-size:50px;
@@ -12,6 +13,40 @@ h1{
 {
     width:40%;
     float:left;
-    margin
+    margin-left: 5%;
+    padding-left:2px;
 
+}
+.half-width img
+{
+    width:100%;
+    border-radius:2%;
+}
+.top-banner{
+    background-image:url("images/top-banner.png");
+    background-repeat:no-repeat;
+}
+section{
+    height: 500px;
+    margin-bottom:200px;
+}
+.link-button{
+    text-decoration:none;
+    background-color:tomato;
+    color:white;
+    padding:10px 20px 10px 20px;
+    border-radius: 5px;
+    font-weight:bold;/* bold=700 */
+}
+.h3-highlight{
+    
+    font-size:50px
+
+}
+.download-resume{
+    text-decoration:none;
+    background-color:royalblue;
+    padding:20px 10px 20px 10px;
+    color:seashell;
+    
 }
