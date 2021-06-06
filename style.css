@@ -5,9 +5,17 @@ body{
 h1{
     font-size:50px;
 }
-.h1-highlight{
+h2{
+    
+    font-size:40px
+
+}
+.orange-highlight{
 
     color:orange;
+}
+p{
+    color:dimgray;
 }
 .half-width
 {
@@ -38,15 +46,9 @@ section{
     border-radius: 5px;
     font-weight:bold;/* bold=700 */
 }
-.h3-highlight{
-    
-    font-size:50px
 
-}
-.download-resume{
-    text-decoration:none;
-    background-color:royalblue;
-    padding:20px 10px 20px 10px;
-    color:seashell;
-    
+.dream-area{
+    background-image:url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position:right;
 }
