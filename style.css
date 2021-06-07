@@ -52,3 +52,34 @@ section{
     background-repeat:no-repeat;
     background-position:right;
 }
+.single-experience{
+    
+    box-shadow:10px 10px 40px gray;  
+    /* 1st 2nd 3rd ===1st and 2nd used for bottom and right border 3rd is for spreading shadow  */
+    border-radius: 2%;
+    height: 60%;
+    background: white;
+}
+.experience-area{
+    background-image:url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position:left;
+
+}
+#first-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(235, 111, 28),rgb(105, 95, 194));
+    border-image-slice:1;
+
+}
+
+#second-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+}
